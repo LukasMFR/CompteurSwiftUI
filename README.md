@@ -2,7 +2,7 @@
 
 ## Overview
 
-CompteurSwiftUI is a versatile counter app built with SwiftUI that allows users to increment or decrement a value with simple taps. Designed with usability in mind, it offers a clear visual and interactive interface for both casual and power users. The app is fully adaptive, providing a seamless experience on iPhone, iPad, and Mac.
+CompteurSwiftUI is a versatile counter app built with SwiftUI that allows users to increment or decrement a value with simple taps. Designed with usability in mind, it offers a clear visual and interactive interface for both casual and power users. The app is fully adaptive, providing a seamless experience on iPhone, iPad, Mac and Apple Watch.
 
 ## Features
 
@@ -25,7 +25,9 @@ CompteurSwiftUI is a versatile counter app built with SwiftUI that allows users 
 ![Mac Screenshot](./Screenshots/Mac_screenshot.png)
 
 ### Apple Watch
-![Apple Watch Screenshot](./Screenshots/Watch_screenshot.png)
+<p align="center">
+  <img src="./Screenshots/Watch_screenshot.png" width="260" alt="iPhone Screenshot">
+</p>
 
 ## Installation
 
