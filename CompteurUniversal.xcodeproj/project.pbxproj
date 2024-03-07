@@ -21,7 +21,7 @@
 		DB44DD302B9A382D00466340 /* CompteurWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DD2F2B9A382D00466340 /* CompteurWatch_Watch_AppTests.swift */; };
 		DB44DD3A2B9A382D00466340 /* CompteurWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DD392B9A382D00466340 /* CompteurWatch_Watch_AppUITests.swift */; };
 		DB44DD3C2B9A382D00466340 /* CompteurWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DD3B2B9A382D00466340 /* CompteurWatch_Watch_AppUITestsLaunchTests.swift */; };
-		DB44DD3F2B9A382D00466340 /* CompteurWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DB44DD1C2B9A382C00466340 /* CompteurWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DB44DD3F2B9A382D00466340 /* CompteurWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DB44DD1C2B9A382C00466340 /* CompteurWatch Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +65,7 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		DB44DD432B9A382D00466340 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
@@ -556,6 +556,7 @@
 		};
 		DB44DD3E2B9A382D00466340 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = DB44DD1B2B9A382C00466340 /* CompteurWatch Watch App */;
 			targetProxy = DB44DD3D2B9A382D00466340 /* PBXContainerItemProxy */;
 		};
