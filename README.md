@@ -14,7 +14,9 @@ CompteurSwiftUI is a versatile counter app built with SwiftUI that allows users 
 ## Screenshots
 
 ### iPhone
-<img src="./Screenshots/iPhone_screenshot.png" width="314" alt="iPhone Screenshot">
+<p align="center">
+  <img src="./Screenshots/iPhone_screenshot.png" width="250" alt="iPhone Screenshot">
+</p>
 
 ### iPad
 ![iPad Screenshot](./Screenshots/iPad_screenshot.png)
