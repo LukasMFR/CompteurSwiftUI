@@ -8,23 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var counterValue: Int = 0 // Tracks the counter's value
-    
-    var body: some View {
-        // Use ZStack to apply gradient background
-        ZStack {
-            // Background gradient
-            LinearGradient(gradient: Gradient(colors: [Color("StartGradient"), Color("EndGradient")]), startPoint: .leading, endPoint: .trailing)
-                .edgesIgnoringSafeArea(.all) // Apply gradient to all edges
+    @State private var counterValue: Int = 0
+    @State private var hovered: Int? = nil // Keeps track of which button is hovered
 
-            // Main content container
+    var body: some View {
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [Color("StartGradient"), Color("EndGradient")]), startPoint: .leading, endPoint: .trailing)
+                .edgesIgnoringSafeArea(.all)
+
             VStack(spacing: 20) {
-                // Display the current value of the counter
                 Text("\(counterValue)")
                     .font(.system(size: 80, weight: .bold))
                     .foregroundColor(.white)
                 
-                // Buttons for modifying the counter value
                 HStack(spacing: 10) {
                     modifierButton(label: "-10", value: -10)
                     modifierButton(label: "-5", value: -5)
@@ -34,7 +30,6 @@ struct ContentView: View {
                     modifierButton(label: "+10", value: 10)
                 }
                 
-                // Reset button
                 Button(action: {
                     self.counterValue = 0
                 }) {
@@ -44,13 +39,19 @@ struct ContentView: View {
                         .padding()
                         .background(LinearGradient(gradient: Gradient(colors: [Color("ResetStart"), Color("ResetEnd")]), startPoint: .leading, endPoint: .trailing))
                         .cornerRadius(5)
-                        .shadow(color: .gray, radius: 4, x: 0, y: 2)
+                        .shadow(color: .gray.opacity(0.5), radius: 3, x: 0, y: 2)
+                        .scaleEffect(hovered == 0 ? 1.05 : 1.0)
+                }
+                .buttonStyle(PlainButtonStyle()) // Apply the plain button style to remove any default styling
+                .onHover { isHovering in
+                    withAnimation(.easeInOut(duration: 0.2)) {
+                        self.hovered = isHovering ? 0 : nil
+                    }
                 }
             }
         }
     }
     
-    // Helper function to create modifier buttons
     func modifierButton(label: String, value: Int) -> some View {
         Button(action: {
             self.counterValue += value
@@ -61,7 +62,15 @@ struct ContentView: View {
                 .padding()
                 .background(LinearGradient(gradient: Gradient(colors: [Color("ButtonStart"), Color("ButtonEnd")]), startPoint: .leading, endPoint: .trailing))
                 .cornerRadius(5)
-                .shadow(color: .gray, radius: 4, x: 0, y: 2)
+                // Apply a more visible default shadow, and enhance it when hovered
+                .shadow(color: .gray.opacity(hovered == value ? 0.5 : 0.4), radius: hovered == value ? 6 : 4, x: 0, y: hovered == value ? 4 : 2)
+                .scaleEffect(hovered == value ? 1.05 : 1.0)
+        }
+        .buttonStyle(PlainButtonStyle()) // Apply the plain button style to remove any default styling
+        .onHover { isHovering in
+            withAnimation(.easeInOut(duration: 0.2)) {
+                self.hovered = isHovering ? value : nil
+            }
         }
     }
 }
