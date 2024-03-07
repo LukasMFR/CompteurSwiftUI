@@ -26,8 +26,11 @@ CompteurSwiftUI is a versatile counter app built with SwiftUI that allows users 
 
 ### Apple Watch
 <p align="center">
-  <img src="./Screenshots/Watch_screenshot.png" width="260" alt="iPhone Screenshot">
+  <img src="./Screenshots/Watch_screenshot.png" width="260" alt="Apple Watch Screenshot">
 </p>
+
+### Vision Pro
+![Apple Vision Pro Screenshot](./Screenshots/Vision_screenshot.png)
 
 ## Installation
 

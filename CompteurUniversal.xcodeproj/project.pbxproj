@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB08A6A32B9A5AFA009E1014 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = DB08A6A22B9A5AFA009E1014 /* RealityKitContent */; };
+		DB08A6A52B9A5AFA009E1014 /* CompteurVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08A6A42B9A5AFA009E1014 /* CompteurVisionApp.swift */; };
+		DB08A6A72B9A5AFA009E1014 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08A6A62B9A5AFA009E1014 /* ContentView.swift */; };
+		DB08A6A92B9A5AFA009E1014 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08A6A82B9A5AFA009E1014 /* ImmersiveView.swift */; };
+		DB08A6AB2B9A5AFA009E1014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB08A6AA2B9A5AFA009E1014 /* Assets.xcassets */; };
+		DB08A6AE2B9A5AFA009E1014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB08A6AD2B9A5AFA009E1014 /* Preview Assets.xcassets */; };
+		DB08A6B92B9A5AFB009E1014 /* CompteurVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08A6B82B9A5AFB009E1014 /* CompteurVisionTests.swift */; };
 		DB44DCE92B9A02DD00466340 /* CompteurUniversalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DCE82B9A02DD00466340 /* CompteurUniversalApp.swift */; };
 		DB44DCEB2B9A02DD00466340 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DCEA2B9A02DD00466340 /* ContentView.swift */; };
 		DB44DCED2B9A02DE00466340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB44DCEC2B9A02DE00466340 /* Assets.xcassets */; };
@@ -25,6 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DB08A6B52B9A5AFB009E1014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB44DCDD2B9A02DD00466340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB08A69D2B9A5AFA009E1014;
+			remoteInfo = CompteurVision;
+		};
 		DB44DCF72B9A02DE00466340 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DB44DCDD2B9A02DD00466340 /* Project object */;
@@ -77,6 +91,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB08A69E2B9A5AFA009E1014 /* CompteurVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompteurVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB08A6A12B9A5AFA009E1014 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		DB08A6A42B9A5AFA009E1014 /* CompteurVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurVisionApp.swift; sourceTree = "<group>"; };
+		DB08A6A62B9A5AFA009E1014 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB08A6A82B9A5AFA009E1014 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		DB08A6AA2B9A5AFA009E1014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB08A6AD2B9A5AFA009E1014 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB08A6AF2B9A5AFA009E1014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB08A6B42B9A5AFB009E1014 /* CompteurVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompteurVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB08A6B82B9A5AFB009E1014 /* CompteurVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurVisionTests.swift; sourceTree = "<group>"; };
 		DB44DCE52B9A02DD00466340 /* CompteurUniversal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompteurUniversal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB44DCE82B9A02DD00466340 /* CompteurUniversalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurUniversalApp.swift; sourceTree = "<group>"; };
 		DB44DCEA2B9A02DD00466340 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +129,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DB08A69B2B9A5AFA009E1014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB08A6A32B9A5AFA009E1014 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB08A6B12B9A5AFB009E1014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB44DCE22B9A02DD00466340 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +189,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB08A69F2B9A5AFA009E1014 /* CompteurVision */ = {
+			isa = PBXGroup;
+			children = (
+				DB08A6A42B9A5AFA009E1014 /* CompteurVisionApp.swift */,
+				DB08A6A62B9A5AFA009E1014 /* ContentView.swift */,
+				DB08A6A82B9A5AFA009E1014 /* ImmersiveView.swift */,
+				DB08A6AA2B9A5AFA009E1014 /* Assets.xcassets */,
+				DB08A6AF2B9A5AFA009E1014 /* Info.plist */,
+				DB08A6AC2B9A5AFA009E1014 /* Preview Content */,
+			);
+			path = CompteurVision;
+			sourceTree = "<group>";
+		};
+		DB08A6A02B9A5AFA009E1014 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DB08A6A12B9A5AFA009E1014 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		DB08A6AC2B9A5AFA009E1014 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB08A6AD2B9A5AFA009E1014 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB08A6B72B9A5AFB009E1014 /* CompteurVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB08A6B82B9A5AFB009E1014 /* CompteurVisionTests.swift */,
+			);
+			path = CompteurVisionTests;
+			sourceTree = "<group>";
+		};
 		DB44DCDC2B9A02DD00466340 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +237,9 @@
 				DB44DD1D2B9A382C00466340 /* CompteurWatch Watch App */,
 				DB44DD2E2B9A382D00466340 /* CompteurWatch Watch AppTests */,
 				DB44DD382B9A382D00466340 /* CompteurWatch Watch AppUITests */,
+				DB08A69F2B9A5AFA009E1014 /* CompteurVision */,
+				DB08A6A02B9A5AFA009E1014 /* Packages */,
+				DB08A6B72B9A5AFB009E1014 /* CompteurVisionTests */,
 				DB44DCE62B9A02DD00466340 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -174,6 +253,8 @@
 				DB44DD1C2B9A382C00466340 /* CompteurWatch Watch App.app */,
 				DB44DD2B2B9A382D00466340 /* CompteurWatch Watch AppTests.xctest */,
 				DB44DD352B9A382D00466340 /* CompteurWatch Watch AppUITests.xctest */,
+				DB08A69E2B9A5AFA009E1014 /* CompteurVision.app */,
+				DB08A6B42B9A5AFB009E1014 /* CompteurVisionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,6 +345,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DB08A69D2B9A5AFA009E1014 /* CompteurVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB08A6BE2B9A5AFB009E1014 /* Build configuration list for PBXNativeTarget "CompteurVision" */;
+			buildPhases = (
+				DB08A69A2B9A5AFA009E1014 /* Sources */,
+				DB08A69B2B9A5AFA009E1014 /* Frameworks */,
+				DB08A69C2B9A5AFA009E1014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompteurVision;
+			packageProductDependencies = (
+				DB08A6A22B9A5AFA009E1014 /* RealityKitContent */,
+			);
+			productName = CompteurVision;
+			productReference = DB08A69E2B9A5AFA009E1014 /* CompteurVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB08A6B32B9A5AFB009E1014 /* CompteurVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB08A6BF2B9A5AFB009E1014 /* Build configuration list for PBXNativeTarget "CompteurVisionTests" */;
+			buildPhases = (
+				DB08A6B02B9A5AFB009E1014 /* Sources */,
+				DB08A6B12B9A5AFB009E1014 /* Frameworks */,
+				DB08A6B22B9A5AFB009E1014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB08A6B62B9A5AFB009E1014 /* PBXTargetDependency */,
+			);
+			name = CompteurVisionTests;
+			productName = CompteurVisionTests;
+			productReference = DB08A6B42B9A5AFB009E1014 /* CompteurVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DB44DCE42B9A02DD00466340 /* CompteurUniversal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB44DD0A2B9A02DE00466340 /* Build configuration list for PBXNativeTarget "CompteurUniversal" */;
@@ -382,6 +501,13 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					DB08A69D2B9A5AFA009E1014 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DB08A6B32B9A5AFB009E1014 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DB08A69D2B9A5AFA009E1014;
+					};
 					DB44DCE42B9A02DD00466340 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -425,11 +551,29 @@
 				DB44DD1B2B9A382C00466340 /* CompteurWatch Watch App */,
 				DB44DD2A2B9A382D00466340 /* CompteurWatch Watch AppTests */,
 				DB44DD342B9A382D00466340 /* CompteurWatch Watch AppUITests */,
+				DB08A69D2B9A5AFA009E1014 /* CompteurVision */,
+				DB08A6B32B9A5AFB009E1014 /* CompteurVisionTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DB08A69C2B9A5AFA009E1014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB08A6AE2B9A5AFA009E1014 /* Preview Assets.xcassets in Resources */,
+				DB08A6AB2B9A5AFA009E1014 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB08A6B22B9A5AFB009E1014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB44DCE32B9A02DD00466340 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -479,6 +623,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DB08A69A2B9A5AFA009E1014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB08A6A72B9A5AFA009E1014 /* ContentView.swift in Sources */,
+				DB08A6A52B9A5AFA009E1014 /* CompteurVisionApp.swift in Sources */,
+				DB08A6A92B9A5AFA009E1014 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB08A6B02B9A5AFB009E1014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB08A6B92B9A5AFB009E1014 /* CompteurVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB44DCE12B9A02DD00466340 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -534,6 +696,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DB08A6B62B9A5AFB009E1014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB08A69D2B9A5AFA009E1014 /* CompteurVision */;
+			targetProxy = DB08A6B52B9A5AFB009E1014 /* PBXContainerItemProxy */;
+		};
 		DB44DCF82B9A02DE00466340 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DB44DCE42B9A02DD00466340 /* CompteurUniversal */;
@@ -563,6 +730,108 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		DB08A6BA2B9A5AFB009E1014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CompteurVision/Preview Content\"";
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		DB08A6BB2B9A5AFB009E1014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CompteurVision/Preview Content\"";
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		DB08A6BC2B9A5AFB009E1014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompteurVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompteurVision";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		DB08A6BD2B9A5AFB009E1014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompteurVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompteurVision";
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
 		DB44DD082B9A02DE00466340 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -999,6 +1268,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DB08A6BE2B9A5AFB009E1014 /* Build configuration list for PBXNativeTarget "CompteurVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB08A6BA2B9A5AFB009E1014 /* Debug */,
+				DB08A6BB2B9A5AFB009E1014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB08A6BF2B9A5AFB009E1014 /* Build configuration list for PBXNativeTarget "CompteurVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB08A6BC2B9A5AFB009E1014 /* Debug */,
+				DB08A6BD2B9A5AFB009E1014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DB44DCE02B9A02DD00466340 /* Build configuration list for PBXProject "CompteurUniversal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1063,6 +1350,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB08A6A22B9A5AFA009E1014 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DB44DCDD2B9A02DD00466340 /* Project object */;
 }
