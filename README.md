@@ -24,6 +24,9 @@ CompteurSwiftUI is a versatile counter app built with SwiftUI that allows users 
 ### Mac
 ![Mac Screenshot](./Screenshots/Mac_screenshot.png)
 
+### Apple Watch
+![Apple Watch Screenshot](./Screenshots/Watch_screenshot.png)
+
 ## Installation
 
 To run CompteurSwiftUI on your device, clone the repository, open the project in Xcode, and run it on your chosen simulator or physical device.
