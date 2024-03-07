@@ -17,9 +17,10 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
 
             VStack(spacing: 20) {
+                // Make the counter text larger and change the color to black
                 Text("\(counterValue)")
-                    .font(.system(size: 80, weight: .bold))
-                    .foregroundColor(.white)
+                    .font(.system(size: 150, weight: .bold)) // Increased font size
+                    .foregroundColor(.black) // Changed color to black
                 
                 HStack(spacing: 10) {
                     modifierButton(label: "-10", value: -10)
@@ -62,11 +63,10 @@ struct ContentView: View {
                 .padding()
                 .background(LinearGradient(gradient: Gradient(colors: [Color("ButtonStart"), Color("ButtonEnd")]), startPoint: .leading, endPoint: .trailing))
                 .cornerRadius(5)
-                // Apply a more visible default shadow, and enhance it when hovered
                 .shadow(color: .gray.opacity(hovered == value ? 0.5 : 0.4), radius: hovered == value ? 6 : 4, x: 0, y: hovered == value ? 4 : 2)
                 .scaleEffect(hovered == value ? 1.05 : 1.0)
         }
-        .buttonStyle(PlainButtonStyle()) // Apply the plain button style to remove any default styling
+        .buttonStyle(PlainButtonStyle())
         .onHover { isHovering in
             withAnimation(.easeInOut(duration: 0.2)) {
                 self.hovered = isHovering ? value : nil
