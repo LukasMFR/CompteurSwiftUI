@@ -14,7 +14,7 @@ CompteurSwiftUI is a versatile counter app built with SwiftUI that allows users 
 ## Screenshots
 
 ### iPhone
-![iPhone Screenshot](./Screenshots/iPhone_screenshot.png)
+<img src="./Screenshots/iPhone_screenshot.png" width="314" alt="iPhone Screenshot">
 
 ### iPad
 ![iPad Screenshot](./Screenshots/iPad_screenshot.png)
@@ -27,7 +27,7 @@ CompteurSwiftUI is a versatile counter app built with SwiftUI that allows users 
 To run CompteurSwiftUI on your device, clone the repository, open the project in Xcode, and run it on your chosen simulator or physical device.
 
 ```bash
-git clone https://github.com/your-username/CompteurSwiftUI.git
+git clone https://github.com/LukasMFR/CompteurSwiftUI.git
 ```
 
 ## Usage

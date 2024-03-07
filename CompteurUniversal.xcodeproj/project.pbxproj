@@ -46,6 +46,9 @@
 		DB44DD042B9A02DE00466340 /* CompteurUniversalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurUniversalUITests.swift; sourceTree = "<group>"; };
 		DB44DD062B9A02DE00466340 /* CompteurUniversalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurUniversalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB44DD132B9A112300466340 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DB44DD152B9A13DB00466340 /* Mac_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mac_screenshot.png; sourceTree = "<group>"; };
+		DB44DD162B9A13DB00466340 /* iPad_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_screenshot.png; sourceTree = "<group>"; };
+		DB44DD172B9A13DB00466340 /* iPhone_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,9 @@
 		DB44DD142B9A123000466340 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				DB44DD162B9A13DB00466340 /* iPad_screenshot.png */,
+				DB44DD172B9A13DB00466340 /* iPhone_screenshot.png */,
+				DB44DD152B9A13DB00466340 /* Mac_screenshot.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
