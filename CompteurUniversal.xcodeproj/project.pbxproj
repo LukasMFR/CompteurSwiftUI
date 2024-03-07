@@ -14,6 +14,14 @@
 		DB44DCFB2B9A02DE00466340 /* CompteurUniversalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DCFA2B9A02DE00466340 /* CompteurUniversalTests.swift */; };
 		DB44DD052B9A02DE00466340 /* CompteurUniversalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DD042B9A02DE00466340 /* CompteurUniversalUITests.swift */; };
 		DB44DD072B9A02DE00466340 /* CompteurUniversalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DD062B9A02DE00466340 /* CompteurUniversalUITestsLaunchTests.swift */; };
+		DB44DD1F2B9A382C00466340 /* CompteurWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DD1E2B9A382C00466340 /* CompteurWatchApp.swift */; };
+		DB44DD212B9A382C00466340 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DD202B9A382C00466340 /* ContentView.swift */; };
+		DB44DD232B9A382D00466340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB44DD222B9A382D00466340 /* Assets.xcassets */; };
+		DB44DD262B9A382D00466340 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB44DD252B9A382D00466340 /* Preview Assets.xcassets */; };
+		DB44DD302B9A382D00466340 /* CompteurWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DD2F2B9A382D00466340 /* CompteurWatch_Watch_AppTests.swift */; };
+		DB44DD3A2B9A382D00466340 /* CompteurWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DD392B9A382D00466340 /* CompteurWatch_Watch_AppUITests.swift */; };
+		DB44DD3C2B9A382D00466340 /* CompteurWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DD3B2B9A382D00466340 /* CompteurWatch_Watch_AppUITestsLaunchTests.swift */; };
+		DB44DD3F2B9A382D00466340 /* CompteurWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DB44DD1C2B9A382C00466340 /* CompteurWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +39,42 @@
 			remoteGlobalIDString = DB44DCE42B9A02DD00466340;
 			remoteInfo = CompteurUniversal;
 		};
+		DB44DD2C2B9A382D00466340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB44DCDD2B9A02DD00466340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB44DD1B2B9A382C00466340;
+			remoteInfo = "CompteurWatch Watch App";
+		};
+		DB44DD362B9A382D00466340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB44DCDD2B9A02DD00466340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB44DD1B2B9A382C00466340;
+			remoteInfo = "CompteurWatch Watch App";
+		};
+		DB44DD3D2B9A382D00466340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB44DCDD2B9A02DD00466340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB44DD1B2B9A382C00466340;
+			remoteInfo = "CompteurWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB44DD432B9A382D00466340 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DB44DD3F2B9A382D00466340 /* CompteurWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DB44DCE52B9A02DD00466340 /* CompteurUniversal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompteurUniversal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +92,16 @@
 		DB44DD152B9A13DB00466340 /* Mac_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mac_screenshot.png; sourceTree = "<group>"; };
 		DB44DD162B9A13DB00466340 /* iPad_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_screenshot.png; sourceTree = "<group>"; };
 		DB44DD172B9A13DB00466340 /* iPhone_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_screenshot.png; sourceTree = "<group>"; };
+		DB44DD1C2B9A382C00466340 /* CompteurWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CompteurWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB44DD1E2B9A382C00466340 /* CompteurWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurWatchApp.swift; sourceTree = "<group>"; };
+		DB44DD202B9A382C00466340 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB44DD222B9A382D00466340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB44DD252B9A382D00466340 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB44DD2B2B9A382D00466340 /* CompteurWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CompteurWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB44DD2F2B9A382D00466340 /* CompteurWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		DB44DD352B9A382D00466340 /* CompteurWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CompteurWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB44DD392B9A382D00466340 /* CompteurWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		DB44DD3B2B9A382D00466340 /* CompteurWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +126,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB44DD192B9A382C00466340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB44DD282B9A382D00466340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB44DD322B9A382D00466340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +158,9 @@
 				DB44DCE72B9A02DD00466340 /* CompteurUniversal */,
 				DB44DCF92B9A02DE00466340 /* CompteurUniversalTests */,
 				DB44DD032B9A02DE00466340 /* CompteurUniversalUITests */,
+				DB44DD1D2B9A382C00466340 /* CompteurWatch Watch App */,
+				DB44DD2E2B9A382D00466340 /* CompteurWatch Watch AppTests */,
+				DB44DD382B9A382D00466340 /* CompteurWatch Watch AppUITests */,
 				DB44DCE62B9A02DD00466340 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +171,9 @@
 				DB44DCE52B9A02DD00466340 /* CompteurUniversal.app */,
 				DB44DCF62B9A02DE00466340 /* CompteurUniversalTests.xctest */,
 				DB44DD002B9A02DE00466340 /* CompteurUniversalUITests.xctest */,
+				DB44DD1C2B9A382C00466340 /* CompteurWatch Watch App.app */,
+				DB44DD2B2B9A382D00466340 /* CompteurWatch Watch AppTests.xctest */,
+				DB44DD352B9A382D00466340 /* CompteurWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +225,42 @@
 			path = Screenshots;
 			sourceTree = "<group>";
 		};
+		DB44DD1D2B9A382C00466340 /* CompteurWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DB44DD1E2B9A382C00466340 /* CompteurWatchApp.swift */,
+				DB44DD202B9A382C00466340 /* ContentView.swift */,
+				DB44DD222B9A382D00466340 /* Assets.xcassets */,
+				DB44DD242B9A382D00466340 /* Preview Content */,
+			);
+			path = "CompteurWatch Watch App";
+			sourceTree = "<group>";
+		};
+		DB44DD242B9A382D00466340 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB44DD252B9A382D00466340 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB44DD2E2B9A382D00466340 /* CompteurWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB44DD2F2B9A382D00466340 /* CompteurWatch_Watch_AppTests.swift */,
+			);
+			path = "CompteurWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DB44DD382B9A382D00466340 /* CompteurWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB44DD392B9A382D00466340 /* CompteurWatch_Watch_AppUITests.swift */,
+				DB44DD3B2B9A382D00466340 /* CompteurWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "CompteurWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,10 +271,12 @@
 				DB44DCE12B9A02DD00466340 /* Sources */,
 				DB44DCE22B9A02DD00466340 /* Frameworks */,
 				DB44DCE32B9A02DD00466340 /* Resources */,
+				DB44DD432B9A382D00466340 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DB44DD3E2B9A382D00466340 /* PBXTargetDependency */,
 			);
 			name = CompteurUniversal;
 			productName = CompteurUniversal;
@@ -201,6 +319,59 @@
 			productReference = DB44DD002B9A02DE00466340 /* CompteurUniversalUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		DB44DD1B2B9A382C00466340 /* CompteurWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB44DD402B9A382D00466340 /* Build configuration list for PBXNativeTarget "CompteurWatch Watch App" */;
+			buildPhases = (
+				DB44DD182B9A382C00466340 /* Sources */,
+				DB44DD192B9A382C00466340 /* Frameworks */,
+				DB44DD1A2B9A382C00466340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CompteurWatch Watch App";
+			productName = "CompteurWatch Watch App";
+			productReference = DB44DD1C2B9A382C00466340 /* CompteurWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB44DD2A2B9A382D00466340 /* CompteurWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB44DD442B9A382D00466340 /* Build configuration list for PBXNativeTarget "CompteurWatch Watch AppTests" */;
+			buildPhases = (
+				DB44DD272B9A382D00466340 /* Sources */,
+				DB44DD282B9A382D00466340 /* Frameworks */,
+				DB44DD292B9A382D00466340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB44DD2D2B9A382D00466340 /* PBXTargetDependency */,
+			);
+			name = "CompteurWatch Watch AppTests";
+			productName = "CompteurWatch Watch AppTests";
+			productReference = DB44DD2B2B9A382D00466340 /* CompteurWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB44DD342B9A382D00466340 /* CompteurWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB44DD472B9A382D00466340 /* Build configuration list for PBXNativeTarget "CompteurWatch Watch AppUITests" */;
+			buildPhases = (
+				DB44DD312B9A382D00466340 /* Sources */,
+				DB44DD322B9A382D00466340 /* Frameworks */,
+				DB44DD332B9A382D00466340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB44DD372B9A382D00466340 /* PBXTargetDependency */,
+			);
+			name = "CompteurWatch Watch AppUITests";
+			productName = "CompteurWatch Watch AppUITests";
+			productReference = DB44DD352B9A382D00466340 /* CompteurWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +393,17 @@
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = DB44DCE42B9A02DD00466340;
 					};
+					DB44DD1B2B9A382C00466340 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DB44DD2A2B9A382D00466340 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DB44DD1B2B9A382C00466340;
+					};
+					DB44DD342B9A382D00466340 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DB44DD1B2B9A382C00466340;
+					};
 				};
 			};
 			buildConfigurationList = DB44DCE02B9A02DD00466340 /* Build configuration list for PBXProject "CompteurUniversal" */;
@@ -240,6 +422,9 @@
 				DB44DCE42B9A02DD00466340 /* CompteurUniversal */,
 				DB44DCF52B9A02DE00466340 /* CompteurUniversalTests */,
 				DB44DCFF2B9A02DE00466340 /* CompteurUniversalUITests */,
+				DB44DD1B2B9A382C00466340 /* CompteurWatch Watch App */,
+				DB44DD2A2B9A382D00466340 /* CompteurWatch Watch AppTests */,
+				DB44DD342B9A382D00466340 /* CompteurWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,6 +447,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DB44DCFE2B9A02DE00466340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB44DD1A2B9A382C00466340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB44DD262B9A382D00466340 /* Preview Assets.xcassets in Resources */,
+				DB44DD232B9A382D00466340 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB44DD292B9A382D00466340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB44DD332B9A382D00466340 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,6 +505,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB44DD182B9A382C00466340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB44DD212B9A382C00466340 /* ContentView.swift in Sources */,
+				DB44DD1F2B9A382C00466340 /* CompteurWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB44DD272B9A382D00466340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB44DD302B9A382D00466340 /* CompteurWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB44DD312B9A382D00466340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB44DD3A2B9A382D00466340 /* CompteurWatch_Watch_AppUITests.swift in Sources */,
+				DB44DD3C2B9A382D00466340 /* CompteurWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -309,6 +543,21 @@
 			isa = PBXTargetDependency;
 			target = DB44DCE42B9A02DD00466340 /* CompteurUniversal */;
 			targetProxy = DB44DD012B9A02DE00466340 /* PBXContainerItemProxy */;
+		};
+		DB44DD2D2B9A382D00466340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB44DD1B2B9A382C00466340 /* CompteurWatch Watch App */;
+			targetProxy = DB44DD2C2B9A382D00466340 /* PBXContainerItemProxy */;
+		};
+		DB44DD372B9A382D00466340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB44DD1B2B9A382C00466340 /* CompteurWatch Watch App */;
+			targetProxy = DB44DD362B9A382D00466340 /* PBXContainerItemProxy */;
+		};
+		DB44DD3E2B9A382D00466340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB44DD1B2B9A382C00466340 /* CompteurWatch Watch App */;
+			targetProxy = DB44DD3D2B9A382D00466340 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -430,6 +679,7 @@
 		DB44DD0B2B9A02DE00466340 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CompteurUniversal/CompteurUniversal.entitlements;
@@ -470,6 +720,7 @@
 		DB44DD0C2B9A02DE00466340 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CompteurUniversal/CompteurUniversal.entitlements;
@@ -597,6 +848,151 @@
 			};
 			name = Release;
 		};
+		DB44DD412B9A382D00466340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CompteurWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TG3S7QB2LR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CompteurWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.lukas.CompteurUniversal2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurUniversal2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		DB44DD422B9A382D00466340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CompteurWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TG3S7QB2LR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CompteurWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.lukas.CompteurUniversal2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurUniversal2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		DB44DD452B9A382D00466340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukas.CompteurWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompteurWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompteurWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		DB44DD462B9A382D00466340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukas.CompteurWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompteurWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompteurWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		DB44DD482B9A382D00466340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukas.CompteurWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CompteurWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		DB44DD492B9A382D00466340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukas.CompteurWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CompteurWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -632,6 +1028,33 @@
 			buildConfigurations = (
 				DB44DD112B9A02DE00466340 /* Debug */,
 				DB44DD122B9A02DE00466340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB44DD402B9A382D00466340 /* Build configuration list for PBXNativeTarget "CompteurWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB44DD412B9A382D00466340 /* Debug */,
+				DB44DD422B9A382D00466340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB44DD442B9A382D00466340 /* Build configuration list for PBXNativeTarget "CompteurWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB44DD452B9A382D00466340 /* Debug */,
+				DB44DD462B9A382D00466340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB44DD472B9A382D00466340 /* Build configuration list for PBXNativeTarget "CompteurWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB44DD482B9A382D00466340 /* Debug */,
+				DB44DD492B9A382D00466340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
