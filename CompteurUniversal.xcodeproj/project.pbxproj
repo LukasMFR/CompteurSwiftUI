@@ -14,6 +14,13 @@
 		DB08A6AB2B9A5AFA009E1014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB08A6AA2B9A5AFA009E1014 /* Assets.xcassets */; };
 		DB08A6AE2B9A5AFA009E1014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB08A6AD2B9A5AFA009E1014 /* Preview Assets.xcassets */; };
 		DB08A6B92B9A5AFB009E1014 /* CompteurVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08A6B82B9A5AFB009E1014 /* CompteurVisionTests.swift */; };
+		DB3965222B9B6CCC009A2F4B /* CompteurTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3965212B9B6CCC009A2F4B /* CompteurTVApp.swift */; };
+		DB3965242B9B6CCC009A2F4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3965232B9B6CCC009A2F4B /* ContentView.swift */; };
+		DB3965262B9B6CCD009A2F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3965252B9B6CCD009A2F4B /* Assets.xcassets */; };
+		DB3965292B9B6CCD009A2F4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3965282B9B6CCD009A2F4B /* Preview Assets.xcassets */; };
+		DB3965332B9B6CCD009A2F4B /* CompteurTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3965322B9B6CCD009A2F4B /* CompteurTVTests.swift */; };
+		DB39653D2B9B6CCD009A2F4B /* CompteurTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39653C2B9B6CCD009A2F4B /* CompteurTVUITests.swift */; };
+		DB39653F2B9B6CCD009A2F4B /* CompteurTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39653E2B9B6CCD009A2F4B /* CompteurTVUITestsLaunchTests.swift */; };
 		DB44DCE92B9A02DD00466340 /* CompteurUniversalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DCE82B9A02DD00466340 /* CompteurUniversalApp.swift */; };
 		DB44DCEB2B9A02DD00466340 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44DCEA2B9A02DD00466340 /* ContentView.swift */; };
 		DB44DCED2B9A02DE00466340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB44DCEC2B9A02DE00466340 /* Assets.xcassets */; };
@@ -38,6 +45,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = DB08A69D2B9A5AFA009E1014;
 			remoteInfo = CompteurVision;
+		};
+		DB39652F2B9B6CCD009A2F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB44DCDD2B9A02DD00466340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB39651E2B9B6CCC009A2F4B;
+			remoteInfo = CompteurTV;
+		};
+		DB3965392B9B6CCD009A2F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB44DCDD2B9A02DD00466340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB39651E2B9B6CCC009A2F4B;
+			remoteInfo = CompteurTV;
 		};
 		DB44DCF72B9A02DE00466340 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -101,6 +122,19 @@
 		DB08A6AF2B9A5AFA009E1014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB08A6B42B9A5AFB009E1014 /* CompteurVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompteurVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB08A6B82B9A5AFB009E1014 /* CompteurVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurVisionTests.swift; sourceTree = "<group>"; };
+		DB39651F2B9B6CCC009A2F4B /* CompteurTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompteurTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3965212B9B6CCC009A2F4B /* CompteurTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurTVApp.swift; sourceTree = "<group>"; };
+		DB3965232B9B6CCC009A2F4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB3965252B9B6CCD009A2F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3965282B9B6CCD009A2F4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB39652E2B9B6CCD009A2F4B /* CompteurTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompteurTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3965322B9B6CCD009A2F4B /* CompteurTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurTVTests.swift; sourceTree = "<group>"; };
+		DB3965382B9B6CCD009A2F4B /* CompteurTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompteurTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB39653C2B9B6CCD009A2F4B /* CompteurTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurTVUITests.swift; sourceTree = "<group>"; };
+		DB39653E2B9B6CCD009A2F4B /* CompteurTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB3965492B9B6EBF009A2F4B /* TV_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TV_screenshot.png; sourceTree = "<group>"; };
+		DB39654A2B9B6EBF009A2F4B /* Vision_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vision_screenshot.png; sourceTree = "<group>"; };
+		DB39654B2B9B6EBF009A2F4B /* Watch_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watch_screenshot.png; sourceTree = "<group>"; };
 		DB44DCE52B9A02DD00466340 /* CompteurUniversal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompteurUniversal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB44DCE82B9A02DD00466340 /* CompteurUniversalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteurUniversalApp.swift; sourceTree = "<group>"; };
 		DB44DCEA2B9A02DD00466340 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +172,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DB08A6B12B9A5AFB009E1014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB39651C2B9B6CCC009A2F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB39652B2B9B6CCD009A2F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3965352B9B6CCD009A2F4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,6 +281,42 @@
 			path = CompteurVisionTests;
 			sourceTree = "<group>";
 		};
+		DB3965202B9B6CCC009A2F4B /* CompteurTV */ = {
+			isa = PBXGroup;
+			children = (
+				DB3965212B9B6CCC009A2F4B /* CompteurTVApp.swift */,
+				DB3965232B9B6CCC009A2F4B /* ContentView.swift */,
+				DB3965252B9B6CCD009A2F4B /* Assets.xcassets */,
+				DB3965272B9B6CCD009A2F4B /* Preview Content */,
+			);
+			path = CompteurTV;
+			sourceTree = "<group>";
+		};
+		DB3965272B9B6CCD009A2F4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB3965282B9B6CCD009A2F4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB3965312B9B6CCD009A2F4B /* CompteurTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3965322B9B6CCD009A2F4B /* CompteurTVTests.swift */,
+			);
+			path = CompteurTVTests;
+			sourceTree = "<group>";
+		};
+		DB39653B2B9B6CCD009A2F4B /* CompteurTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB39653C2B9B6CCD009A2F4B /* CompteurTVUITests.swift */,
+				DB39653E2B9B6CCD009A2F4B /* CompteurTVUITestsLaunchTests.swift */,
+			);
+			path = CompteurTVUITests;
+			sourceTree = "<group>";
+		};
 		DB44DCDC2B9A02DD00466340 = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +331,9 @@
 				DB08A69F2B9A5AFA009E1014 /* CompteurVision */,
 				DB08A6A02B9A5AFA009E1014 /* Packages */,
 				DB08A6B72B9A5AFB009E1014 /* CompteurVisionTests */,
+				DB3965202B9B6CCC009A2F4B /* CompteurTV */,
+				DB3965312B9B6CCD009A2F4B /* CompteurTVTests */,
+				DB39653B2B9B6CCD009A2F4B /* CompteurTVUITests */,
 				DB44DCE62B9A02DD00466340 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -255,6 +349,9 @@
 				DB44DD352B9A382D00466340 /* CompteurWatch Watch AppUITests.xctest */,
 				DB08A69E2B9A5AFA009E1014 /* CompteurVision.app */,
 				DB08A6B42B9A5AFB009E1014 /* CompteurVisionTests.xctest */,
+				DB39651F2B9B6CCC009A2F4B /* CompteurTV.app */,
+				DB39652E2B9B6CCD009A2F4B /* CompteurTVTests.xctest */,
+				DB3965382B9B6CCD009A2F4B /* CompteurTVUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -299,6 +396,9 @@
 		DB44DD142B9A123000466340 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				DB3965492B9B6EBF009A2F4B /* TV_screenshot.png */,
+				DB39654A2B9B6EBF009A2F4B /* Vision_screenshot.png */,
+				DB39654B2B9B6EBF009A2F4B /* Watch_screenshot.png */,
 				DB44DD162B9A13DB00466340 /* iPad_screenshot.png */,
 				DB44DD172B9A13DB00466340 /* iPhone_screenshot.png */,
 				DB44DD152B9A13DB00466340 /* Mac_screenshot.png */,
@@ -382,6 +482,59 @@
 			productName = CompteurVisionTests;
 			productReference = DB08A6B42B9A5AFB009E1014 /* CompteurVisionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB39651E2B9B6CCC009A2F4B /* CompteurTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3965462B9B6CCD009A2F4B /* Build configuration list for PBXNativeTarget "CompteurTV" */;
+			buildPhases = (
+				DB39651B2B9B6CCC009A2F4B /* Sources */,
+				DB39651C2B9B6CCC009A2F4B /* Frameworks */,
+				DB39651D2B9B6CCC009A2F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompteurTV;
+			productName = CompteurTV;
+			productReference = DB39651F2B9B6CCC009A2F4B /* CompteurTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB39652D2B9B6CCD009A2F4B /* CompteurTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3965472B9B6CCD009A2F4B /* Build configuration list for PBXNativeTarget "CompteurTVTests" */;
+			buildPhases = (
+				DB39652A2B9B6CCD009A2F4B /* Sources */,
+				DB39652B2B9B6CCD009A2F4B /* Frameworks */,
+				DB39652C2B9B6CCD009A2F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3965302B9B6CCD009A2F4B /* PBXTargetDependency */,
+			);
+			name = CompteurTVTests;
+			productName = CompteurTVTests;
+			productReference = DB39652E2B9B6CCD009A2F4B /* CompteurTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB3965372B9B6CCD009A2F4B /* CompteurTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3965482B9B6CCD009A2F4B /* Build configuration list for PBXNativeTarget "CompteurTVUITests" */;
+			buildPhases = (
+				DB3965342B9B6CCD009A2F4B /* Sources */,
+				DB3965352B9B6CCD009A2F4B /* Frameworks */,
+				DB3965362B9B6CCD009A2F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB39653A2B9B6CCD009A2F4B /* PBXTargetDependency */,
+			);
+			name = CompteurTVUITests;
+			productName = CompteurTVUITests;
+			productReference = DB3965382B9B6CCD009A2F4B /* CompteurTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		DB44DCE42B9A02DD00466340 /* CompteurUniversal */ = {
 			isa = PBXNativeTarget;
@@ -508,6 +661,17 @@
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = DB08A69D2B9A5AFA009E1014;
 					};
+					DB39651E2B9B6CCC009A2F4B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DB39652D2B9B6CCD009A2F4B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DB39651E2B9B6CCC009A2F4B;
+					};
+					DB3965372B9B6CCD009A2F4B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DB39651E2B9B6CCC009A2F4B;
+					};
 					DB44DCE42B9A02DD00466340 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -553,6 +717,9 @@
 				DB44DD342B9A382D00466340 /* CompteurWatch Watch AppUITests */,
 				DB08A69D2B9A5AFA009E1014 /* CompteurVision */,
 				DB08A6B32B9A5AFB009E1014 /* CompteurVisionTests */,
+				DB39651E2B9B6CCC009A2F4B /* CompteurTV */,
+				DB39652D2B9B6CCD009A2F4B /* CompteurTVTests */,
+				DB3965372B9B6CCD009A2F4B /* CompteurTVUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -568,6 +735,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DB08A6B22B9A5AFB009E1014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB39651D2B9B6CCC009A2F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3965292B9B6CCD009A2F4B /* Preview Assets.xcassets in Resources */,
+				DB3965262B9B6CCD009A2F4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB39652C2B9B6CCD009A2F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3965362B9B6CCD009A2F4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -641,6 +831,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB39651B2B9B6CCC009A2F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3965242B9B6CCC009A2F4B /* ContentView.swift in Sources */,
+				DB3965222B9B6CCC009A2F4B /* CompteurTVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB39652A2B9B6CCD009A2F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3965332B9B6CCD009A2F4B /* CompteurTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3965342B9B6CCD009A2F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB39653D2B9B6CCD009A2F4B /* CompteurTVUITests.swift in Sources */,
+				DB39653F2B9B6CCD009A2F4B /* CompteurTVUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB44DCE12B9A02DD00466340 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -700,6 +916,16 @@
 			isa = PBXTargetDependency;
 			target = DB08A69D2B9A5AFA009E1014 /* CompteurVision */;
 			targetProxy = DB08A6B52B9A5AFB009E1014 /* PBXContainerItemProxy */;
+		};
+		DB3965302B9B6CCD009A2F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB39651E2B9B6CCC009A2F4B /* CompteurTV */;
+			targetProxy = DB39652F2B9B6CCD009A2F4B /* PBXContainerItemProxy */;
+		};
+		DB39653A2B9B6CCD009A2F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB39651E2B9B6CCC009A2F4B /* CompteurTV */;
+			targetProxy = DB3965392B9B6CCD009A2F4B /* PBXContainerItemProxy */;
 		};
 		DB44DCF82B9A02DE00466340 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -829,6 +1055,147 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompteurVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompteurVision";
 				VALIDATE_PRODUCT = YES;
 				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		DB3965402B9B6CCD009A2F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CompteurTV/Preview Content\"";
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+			};
+			name = Debug;
+		};
+		DB3965412B9B6CCD009A2F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CompteurTV/Preview Content\"";
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3965422B9B6CCD009A2F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompteurTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompteurTV";
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+			};
+			name = Debug;
+		};
+		DB3965432B9B6CCD009A2F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompteurTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompteurTV";
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3965442B9B6CCD009A2F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = CompteurTV;
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+			};
+			name = Debug;
+		};
+		DB3965452B9B6CCD009A2F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58PRAMLMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.CompteurTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = CompteurTV;
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1282,6 +1649,33 @@
 			buildConfigurations = (
 				DB08A6BC2B9A5AFB009E1014 /* Debug */,
 				DB08A6BD2B9A5AFB009E1014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3965462B9B6CCD009A2F4B /* Build configuration list for PBXNativeTarget "CompteurTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3965402B9B6CCD009A2F4B /* Debug */,
+				DB3965412B9B6CCD009A2F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3965472B9B6CCD009A2F4B /* Build configuration list for PBXNativeTarget "CompteurTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3965422B9B6CCD009A2F4B /* Debug */,
+				DB3965432B9B6CCD009A2F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3965482B9B6CCD009A2F4B /* Build configuration list for PBXNativeTarget "CompteurTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3965442B9B6CCD009A2F4B /* Debug */,
+				DB3965452B9B6CCD009A2F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
